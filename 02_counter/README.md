@@ -1,16 +1,26 @@
-# React + Vite
+## Today Lesson
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+learned about a few hooks and build one project on counter just basic if click on one button it changes the counter in multiple places
 
-Currently, two official plugins are available:
+# React usecase
+ 
+React best use case was that when first discovered was that we can change multiple items in one click instead if getting elements by id or class and changes it's text we can just use **Hook** 
+With the help of hook we use state and change the counter 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# useState Hook
 
-## React Compiler
+`
+let [counter , setCounter] = useState(initial value)
+`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+every name in the hook is the placeholder we can give any name to it 
+first value is the variable and it has the initial value given here
 
-## Expanding the ESLint configuration
+`
+counter = initial value
+`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+and setCounter is the method that changes the variable
+
+initial value can be any value like array , boolean (True / False) , Object , Constant value or even Function.
+
