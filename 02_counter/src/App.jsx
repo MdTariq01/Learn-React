@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
+
 function App() {
  let [counter , setCounter] = useState(15) 
   // let counter = 15;
+  
   let addCounter = () => {
     if(counter < 20) {
     setCounter(counter + 1)
@@ -33,5 +35,4 @@ function App() {
     </>
   )
 }
-
 export default App
