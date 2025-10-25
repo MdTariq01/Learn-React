@@ -14,7 +14,6 @@ export default function App() {
       <Item />
       <h2>Today we learned that the function build should always start with a capital letter</h2>
       <h3>The js injection happens manually in vite + react but in react default it gets already connected not a single line of code written there </h3>
-
       <h1>Day 3</h1>
       <p>so we build custom react for ourself and used it and learned a few things so here goes-</p>
       <p>1) we can't declare function in main file</p>
@@ -24,7 +23,7 @@ export default function App() {
       <p>5) react use babel to convert jsx to js</p>
       <p>6) react use createElement to convert jsx to js</p>
       <p>7) react use render to render the element on the screen</p>
-      
+
     </>
   )
 }
