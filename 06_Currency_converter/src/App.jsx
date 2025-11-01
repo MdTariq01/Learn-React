@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import InputBox from './Components/input'
 
 function App() {
 
   return (
     <>
-      <h1 >Currency Converter</h1>
+      <h1>Currency Converter</h1>
+      <InputBox />
     </>
   )
 }
