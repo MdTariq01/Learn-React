@@ -3,11 +3,11 @@ import { createContext , useContext } from "react";
 export const TodoContext = createContext({
   todos :[ {
     id: 1 , 
-    Todo_task : "todo-msg" ,
-    Completed : false
+    todo : "todo-msg" ,
+    completed : false
   }] , 
-  addTodo : (Todo_task) => {} , 
-  updateTodo : ( id , Todo_task) => {} , 
+  addTodo : (todo) => {} , 
+  updateTodo : ( id , todo) => {} , 
   deleteTodo : (id) => {} ,
   toggleTodo : (id) => {}
 })
